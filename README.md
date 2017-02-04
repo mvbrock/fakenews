@@ -8,9 +8,11 @@ classifier using [random forest](https://en.wikipedia.org/wiki/Random_forest).
 
 ## Installing fakenews
 
-* Install python-dev: sudo apt-get install python-dev
-* Install the JVM: sudo apt-get install openjdk-7-jre
+* Install apt packages: sudo apt-get install python3-dev openjdk-7-jre libxml2-dev libxslt1-dev
 * Install python-boilerpipe: https://github.com/misja/python-boilerpipe
+* Create virtualenv: virtualenv --python=python3.4 .venv
+* Activate virtualenv: . .venv/bin/activate
+* Install pip requirements: pip install -r requirements.txt
 
 ## Misc Research
 
@@ -18,6 +20,11 @@ classifier using [random forest](https://en.wikipedia.org/wiki/Random_forest).
 
 The following is a list of research papers on fake news detection:
 * [Automatic Deception Detection: Methods for Finding Fake News](http://onlinelibrary.wiley.com/doi/10.1002/pra2.2015.145052010082/pdf)
+
+### Web scraping
+
+* [Scrapy](https://scrapy.org/)
+* [5 Tasty Python Web Scraping Libraries](https://elitedatascience.com/python-web-scraping-libraries)
 
 ### Text extraction
 
