@@ -9,10 +9,10 @@ classifier using [random forest](https://en.wikipedia.org/wiki/Random_forest).
 ## Installing fakenews
 
 * Install apt packages: sudo apt-get install python3-dev openjdk-7-jre libxml2-dev libxslt1-dev libssl-dev libffi-dev
-* Install python-boilerpipe: https://github.com/misja/python-boilerpipe
 * Create virtualenv: virtualenv --python=python3.4 .venv
 * Activate virtualenv: . .venv/bin/activate
 * Install pip requirements: pip install -r requirements.txt
+* Install python-boilerpipe: https://github.com/misja/python-boilerpipe
 
 ## Misc Research
 
