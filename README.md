@@ -2,8 +2,9 @@
 
 FakeNews is a Python command-line application and library for building an ensembled set of classifiers to detect
 fake news articles. This is a work in progress, based on basic understandings of classification problems in relation
-to NLP. A first approach will attempt to create a feature space using N-grams from extracted text, select a feature
-subset via TF-IDF, and build a classifier with Random Forest.
+to NLP. A first approach will attempt to create a feature space using [n-grams](https://en.wikipedia.org/wiki/N-gram)
+from extracted text, select a feature subset via [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf), and build a
+classifier using [random forest](https://en.wikipedia.org/wiki/Random_forest).
 
 ## Installing fakenews
 
